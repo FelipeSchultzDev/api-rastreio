@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "baseUrl": "./src",
+        "esModuleInterop": true,
+        "paths": {
+            "validations/*": ["./validation/*"]
+        }
+    }
+}
