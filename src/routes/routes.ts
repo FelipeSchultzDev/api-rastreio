@@ -1,6 +1,6 @@
 import { Router } from 'express';
 
-import IndexValidation from 'validation/index.validation';
+import IndexValidation from 'validations/index.validation';
 import IndexController from '../controller/index.controller';
 
 
