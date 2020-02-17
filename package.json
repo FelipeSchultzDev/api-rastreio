@@ -15,6 +15,7 @@
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-config-prettier": "^6.10.0",
     "eslint-config-standard": "^14.1.0",
+    "eslint-import-resolver-typescript": "^2.0.0",
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-prettier": "^3.1.2",
@@ -25,7 +26,8 @@
     "nodemon": "^2.0.2",
     "prettier": "^1.19.1",
     "sucrase": "^3.12.1",
-    "typescript": "^3.7.5"
+    "typescript": "^3.7.5",
+    "typescript-eslint-parser": "^22.0.0"
   },
   "dependencies": {
     "@types/cors": "^2.8.6",
@@ -34,6 +36,11 @@
     "axios": "^0.19.2",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "joi": "^14.3.1"
+    "joi": "^14.3.1",
+    "module-alias": "^2.2.2"
+  },
+  "_moduleAliases": {
+    "validations": "src/validations",
+    "controllers": "src/controllers"
   }
 }

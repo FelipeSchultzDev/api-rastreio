@@ -1,7 +1,7 @@
 import { Router } from 'express';
 
 import IndexValidation from 'validations/index.validation';
-import IndexController from '../controller/index.controller';
+import IndexController from 'controllers/index.controller';
 
 
 const router = Router();
