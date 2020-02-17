@@ -1,11 +1,10 @@
 import { Router } from 'express';
 
-import IndexValidation from 'validations/index.validation';
-import IndexController from 'controllers/index.controller';
-
+import RastreioValidation from 'validations/rastreio.validation';
+import RastreioController from 'controllers/rastreio.controller';
 
 const router = Router();
 
-router.get('/', IndexValidation.index, IndexController.index);
+router.get('/:cod', RastreioValidation.get, RastreioController.get);
 
 export default router;

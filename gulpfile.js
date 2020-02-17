@@ -7,7 +7,7 @@ const tsProject = ts.createProject('./tsconfig.json');
 
 const tsPathResolver = require('./gulp-path-resolver');
 
-gulp.task('default', () => {
+gulp.task('build', () => {
   const tsResult = tsProject
     .src()
     .pipe(tsProject())

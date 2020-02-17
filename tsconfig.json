@@ -4,7 +4,8 @@
     "baseUrl": "./src",
     "paths": {
       "validations/*": ["validations/*"],
-      "controlllers/*": ["controlllers/*"]
+      "controllers/*": ["controllers/*"],
+      "utils/*": ["utils/*"]
     },
     "allowSyntheticDefaultImports": true,
     "strictNullChecks": true,

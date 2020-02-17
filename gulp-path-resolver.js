@@ -22,6 +22,7 @@ const resolvePath = (code, filePath, rootPath, targetPaths) => {
             const sourcePath = path.dirname(filePath);
             let targetPath;
 
+
             if (tscpath[tscpath.length - 1] === '*') {
               targetPath = path.resolve(`${rootPath}/${targetPaths[tscpath].map((_p) => _p.replace('/*', ''))}`);
 
